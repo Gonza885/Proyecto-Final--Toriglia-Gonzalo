@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "nombre": "Banco Plano/Inclinado",
+        "precio": 1000,
+        "img": "img/banco.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 2,
+        "nombre": "Barra",
+        "precio": 5000,
+        "img": "img/Barra2.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 3,
+        "nombre": "Colchoneta",
+        "precio": 1000,
+        "img": "img/colchonetagym.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 4,
+        "nombre": "Coreback",
+        "precio": 700,
+        "img": "img/Coreback.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 5,
+        "nombre": "Mancuerna",
+        "precio": 600,
+        "img": "img/mancuerna.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 6,
+        "nombre": "Pelota de Arena",
+        "precio": 5000,
+        "img": "img/pelotaare.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 7,
+        "nombre": "Pesa Rusa",
+        "precio": 5000,
+        "img": "img/pesa-rusa.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 8,
+        "nombre": "Rueda Abdominal",
+        "precio": 2000,
+        "img": "img/ruedaAbdominal.jpg",
+        "cantidad": 1
+    }
+]

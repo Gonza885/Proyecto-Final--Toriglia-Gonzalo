@@ -1,0 +1,120 @@
+body{
+    background-color: black;
+    background-image: url("./img/imagen-fondo.jpg");
+}
+
+h3, hr{
+    color: tomato;
+}
+h2{
+    color: rgb(255, 255, 255);
+    border-style:ridge;
+    border-color: rgb(255, 255, 255);
+    margin: 25px;
+}
+
+hr{
+    border: 50px;
+}
+
+
+.imgProductos {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-top: 1rem;
+}
+
+.card {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    padding: 1rem;
+    border-color: tomato;
+}
+
+.colorBoton {
+    color: #000000;
+    background-color: tomato;
+    display:flexbox;
+    flex-direction:initial;
+    margin: 0.5rem;
+    align-items: center;
+    
+}
+
+.colorBoton:hover {
+    background-color: rgb(243, 126, 105);
+}
+
+h5, p{
+    text-align: center;
+    color: aliceblue;
+}
+
+span{
+    color: rgb(243, 154, 138);
+}
+
+.sumar{
+    cursor: pointer;
+    align-items: initial;
+    
+}
+
+.restar{
+    cursor: pointer;
+    justify-content: left;
+}
+
+p{
+    text-align: center;
+}
+
+body.swal2-shown > [aria-hidden="true"] {
+    transition: 0.1s filter;
+    filter: blur(10px);
+  }
+
+
+  /*Animación */
+
+  h1{
+    
+    font-family:fantasy;
+    display: grid;
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px;
+    box-shadow: 5px 5px 42px 5px #cccccc;
+    background-color: rgb(150, 148, 147);
+    max-width: 800px;
+    color: rgb(255, 255, 255);
+    animation: Animacion;
+    animation-duration: 6.5s;
+    animation-iteration-count: infinite;
+    
+}
+
+
+
+@keyframes Animacion {
+    0%{
+        transform: translate(0,0);
+    }
+    25%{
+        transform: translate(0,0);
+        background-color: #575555;
+    }
+    50%{
+        transform: translate(0,0);
+        background-color: #9E9E9E;
+    }
+    75%{
+        transform: translate(0, 0);
+        background-color: #4A4848;
+    }
+}
+
+
